@@ -1,0 +1,94 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #f5f5f5;
+    color: #333;
+}
+
+/* Encabezado */
+header {
+    background: linear-gradient(90deg, #ff4b2b, #ff416c);
+    color: white;
+    padding: 30px 0;
+    text-align: center;
+}
+
+header .perfil {
+    width: 150px;
+    border-radius: 50%;
+    border: 4px solid white;
+    margin-bottom: 15px;
+}
+
+/* Contenedor general */
+.container {
+    width: 80%;
+    margin: auto;
+}
+
+/* Contenido principal */
+main {
+    padding: 30px;
+    background: white;
+    width: 80%;
+    margin: 20px auto;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0,0,0,0.1);
+    text-align: center; /* 👈 centramos el contenido */
+}
+
+h1, h2 {
+    color: #ff416c;
+}
+
+/* Listas centradas */
+main ul {
+    list-style: none;
+    padding: 0;
+}
+
+main ul li {
+    margin: 5px 0;
+    font-size: 18px;
+}
+
+/* Botón */
+.btn {
+    display: inline-block;
+    background: #ff416c;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 6px;
+    margin-top: 15px;
+    transition: 0.3s;
+}
+.btn:hover {
+    background: #ff4b2b;
+}
+
+/* Galería centrada */
+.galeria {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin-top: 15px;
+}
+
+.galeria img {
+    width: 220px;
+    border-radius: 10px;
+    box-shadow: 0px 3px 8px rgba(0,0,0,0.2);
+}
+
+/* Pie de página */
+footer {
+    text-align: center;
+    background: #333;
+    color: white;
+    padding: 15px 0;
+    margin-top: 20px;
+}
